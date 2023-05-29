@@ -15,8 +15,6 @@ submitButton.addEventListener('click', function(event) {
     outputElement.textContent = reversedValue;
      inputField.value =''
 
-    // You can perform any additional actions or submit the form programmatically if needed
-    // document.getElementById('myForm').submit();
 });
 
  function remove(){
