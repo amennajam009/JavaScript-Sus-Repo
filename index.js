@@ -1,6 +1,9 @@
 const inputField = document.getElementById('inputField');
 const submitButton = document.getElementById('submitButton');
 const outputElement = document.getElementById('output');
+const inputField2 = document.getElementById('inputField2');
+const submitButton2 = document.getElementById('submitButton2');
+
 
 const reverseString = (inputValue) => {
     return inputValue.split('').reverse().join('');
