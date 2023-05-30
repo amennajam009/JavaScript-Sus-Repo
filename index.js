@@ -39,3 +39,7 @@ submitButton2.addEventListener('click' , function(event){
  const Result = MyTableFuntion(GivenTable)
  outputElement2.textContent = Result
 });
+
+function remove2(){
+    this.outputElement2.remove();
+}
